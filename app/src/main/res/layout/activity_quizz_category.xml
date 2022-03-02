@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_700_fond"
+    android:orientation="vertical"
+    tools:context=".QuizzCategory">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:fontFamily="serif-monospace"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:text="@string/Choose" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/economie"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:background="@drawable/arrondi_transparent"
+                android:textSize="20dp"
+                android:text="Economie" />
+
+            <Button
+                android:id="@+id/arts"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/arrondi_transparent"
+                android:textSize="20dp"
+                android:text="Art" />
+
+            <Button
+                android:id="@+id/biologie"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/arrondi_transparent"
+                android:textSize="20dp"
+                android:text="Biologie" />
+
+            <Button
+                android:id="@+id/film"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/arrondi_transparent"
+                android:textSize="20dp"
+                android:text="Film" />
+
+            <Button
+                android:id="@+id/music"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/arrondi_transparent"
+                android:textSize="20dp"
+                android:text="Musique" />
+            <Button
+                android:id="@+id/histoire"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/arrondi_transparent"
+                android:textSize="20dp"
+                android:text="Histoire" />
+            <Button
+                android:id="@+id/litterature"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/arrondi_transparent"
+                android:textSize="20dp"
+                android:text="Litterature" />
+            <Button
+                android:id="@+id/aliments"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/arrondi_transparent"
+                android:textSize="20dp"
+                android:text="Aliments" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

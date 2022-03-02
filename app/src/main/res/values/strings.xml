@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">QuizzApp</string>
+    <string name="Introduction">Bienvenue ! Quel est votre prénom ?</string>
+    <string name="Choose">Choissisez une catégorie</string>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/purple_700_fond"
+    tools:context=".QuizzHistoire">
+
+    <TextView
+        android:id="@+id/game_activity_textview_question"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        android:layout_weight="2"
+        android:fontFamily="serif-monospace"
+        android:background="@drawable/arrondi_bleu"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="Question ?" />
+
+    <Button
+        android:id="@+id/game_activity_button_1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_weight="1"
+        android:background="@drawable/arrondi_aqua"
+        android:padding="16dp"
+        android:textSize="20sp"
+        android:text="Answer1" />
+
+    <Button
+        android:id="@+id/game_activity_button_2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:background="@drawable/arrondi_aqua"
+        android:layout_weight="1"
+        android:padding="16dp"
+        android:textSize="20sp"
+        android:text="Answer2" />
+
+    <Button
+        android:id="@+id/game_activity_button_3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:background="@drawable/arrondi_aqua"
+        android:layout_weight="1"
+        android:padding="16dp"
+        android:textSize="20sp"
+        android:text="Answer3" />
+
+    <Button
+        android:id="@+id/game_activity_button_4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:background="@drawable/arrondi_aqua"
+        android:layout_weight="1"
+        android:padding="16dp"
+        android:textSize="20sp"
+        android:text="Answer4" />
+</LinearLayout>
